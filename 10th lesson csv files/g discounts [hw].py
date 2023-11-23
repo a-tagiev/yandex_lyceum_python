@@ -12,3 +12,5 @@ with open('wares.csv', encoding="utf8") as csvfile:
             ans.append(row[0])
 
 print(*ans, sep='\n')
+
+print()
